@@ -8,8 +8,7 @@ for element in ppt_elements:
 from langchain_core.documents import Document
 # 转换为 Documents 数据结构
 documents = [
-Document(page_content=element.text, 
-  	     metadata={"source": "data/黑神话悟空PPT.pptx"})
+Document(page_content=element.text, metadata={"source": "data/黑神话悟空PPT.pptx"})
     for element in ppt_elements
 ]
 
