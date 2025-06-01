@@ -7,8 +7,8 @@ filename = "90-文档-Data/黑悟空/黑神话悟空.pdf"
 # 使用partition函数解析PDF文件
 # content_type指定文件类型为PDF
 elements = partition(filename=filename, 
-                   content_type="application/pdf"
-                  )
+                content_type="application/pdf"
+                )
 
 # 展示解析出的elements的类型和内容
 print("PDF解析后的Elements类型:")
